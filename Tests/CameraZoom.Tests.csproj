@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\ZoomMath.cs" Link="ZoomMath.cs" />
+    <Compile Include="..\ZoomCamera.cs" Link="ZoomCamera.cs" />
+    <Compile Include="..\ZoomFog.cs" Link="ZoomFog.cs" />
+    <Compile Include="..\ZoomWeather.cs" Link="ZoomWeather.cs" />
+    <Reference Include="0Harmony"><HintPath>..\..\..\BepInEx\core\0Harmony.dll</HintPath></Reference>
+    <Reference Include="Mono.Cecil"><HintPath>..\..\..\BepInEx\core\Mono.Cecil.dll</HintPath></Reference>
+  </ItemGroup>
+</Project>
